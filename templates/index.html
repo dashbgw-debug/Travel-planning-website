@@ -1,0 +1,12 @@
+{% include "headers.html" %}
+<div class="background px-4 py-5 text-center text-light">
+    <img class="mb-5 rounded-circle" src="static/images/images.jpg" alt="Logo" height="100px">
+    <h1 class="fs-1 lead mb-4 text-light">Plan Your Trips</h1>
+    <div class="col-lg-6 mx-auto"><p class="lead mb-4 text-light">Stop wasting hours in research tabs. Tell us where you want to go, and we'll craft a custom itinerary tailored to your vibe, budget, and travel style—fast, seamless, and hassle-free.</p>
+    </div>
+    <div class="container row index-border rounded offset-4 py-3 gap-4">
+        <a type="button" class="login-btn btn col-lg-5" href="{{ url_for('login') }}" >Login</a>
+        <a type="button" class="signup-btn btn col-lg-5" href="{{ url_for('signup') }}" >Sign up</a>
+    </div>
+</div>
+{% include "footers.html" %}

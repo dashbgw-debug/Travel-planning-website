@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.background {
+    background: linear-gradient(45deg, #034003, #011F01, #000000);
+}
+
+.hub-background{
+    background: #063300;
+    background-size: cover;
+}
+
+.hub-border{
+    height: 525px;
+    background: white;
+    border: 1px solid grey;
+    color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    color: black;
+    border-radius: 25px;
+}
+
+.header{
+    background: linear-gradient(45deg, #034003, #011F01, #000000);
+}
+
+
+.footer{
+   background: linear-gradient(45deg, #034003, #011F01, #000000);
+   color:white;
+}
+
+
+.login-border{
+    background: black;
+    height:500px;
+    width: 550px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+
+.index-border{
+    height:80px;
+    width:450px;
+    background:transparent;
+    color:white;
+
+}
+
+
+.signup-btn,
+.login-btn{
+    font-family: Copperplate, Papyrus, fantasy;
+    transition-duration: 0.5s;
+    background: linear-gradient(135deg, #0A3A18, #051F0D);
+    font-weight: bold;
+    border: 1px solid #1A5228;
+    color: white;
+    font-size:20px
+}
+
+
+.lead{
+    color:black;
+    font-size:25px;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: bold;
+}
+
+
+.signup-btn:hover,
+.login-btn:hover{
+    transition-duration: 0.2s;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: bold;
+    background: linear-gradient(135deg, #125C27, #0A3A18);
+    border: 1px solid #000000;
+    color: white;
+}
+
+
+.form{
+    border-color: green;
+    border-width: 0px 0px 1px 0px;
+    height: 50px;
+    text-align:left;
+    font-size:20px;
+    background: transparent;
+    color: white;
+    pdx: 5px;
+}
+
+.project{
+    border-color: green;
+    border-width: 0px 0px 1px 0px;
+    height: 50px;
+    text-align:left;
+    font-size:20px;
+    background: grey;
+    color: white;
+    pdx: 5px;
+}
