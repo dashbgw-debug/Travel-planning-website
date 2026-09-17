@@ -4,40 +4,18 @@
       <h1 class="m">What's on your mind ...</h1>
     <div class="container mt-5">
 
-      <a class="btn-control btn" href="">
-        <img class="rounded" src="static/images/nyc.jpg" alt="NYC pic" width="200px">
-        <span><h3>NYC</h3></span>
+      {% if not all_cities %}
+      <a class="btn-control btn offset-5 py-5 mt-5" href="{{ url_for('choose_state') }}">
+        <img class="rounded" src="static/images/addplan.jpg" alt="No current plans" width="150px">
+        <span><h3>No current plans</h3></span>
       </a>
+      {% endif %}
 
-      <a class="btn-control btn" href="">
-        <img class="rounded " src="static/images/mi.jpg" alt="Michigan pic" width="200px">
-        <span><h3>Michigan</h3></span>
-      </a>
+<!--      <a class="btn-control btn" href="">-->
+<!--        <img class="rounded" src="static/images/nyc.jpg" alt="NYC pic" width="200px">-->
+<!--        <span><h3>NYC</h3></span>-->
+<!--      </a>-->
 
-      <a class="btn-control btn" href="">
-        <img class="rounded " src="static/images/buffalo.jpg" alt="Buffalo pic" width="200px">
-        <span><h3>Buffalo</h3></span>
-      </a>
-
-      <a class="btn-control btn" href="">
-        <img class="rounded " src="static/images/toronto.jpg" alt="Michigan pic" width="200px">
-        <span><h3>Toronto</h3></span>
-      </a>
-
-      <a class="btn-control btn" href="">
-        <img class="rounded " src="static/images/chicago.jpg" alt="Michigan pic" width="200px">
-        <span><h3>Chicago</h3></span>
-      </a>
-
-      <a class="btn-control btn" href="">
-        <img class="rounded " src="static/images/dallas.jpg" alt="Michigan pic" width="200px">
-        <span><h3>Dallas</h3></span>
-      </a>
-
-      <a class="btn-control btn" href="">
-        <img class="rounded " src="static/images/miami.jpg" alt="Miami pic" width="200px">
-        <span><h3>Miami</h3></span>
-      </a>
     </div>
   </div>
 </div>
